@@ -1,0 +1,8 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1.75fr;
+}
+.sidebar{
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+}
