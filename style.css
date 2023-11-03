@@ -64,10 +64,35 @@ img{
 }
 input{
     width: 200px;
-    border-radius: 5px;
-    border-color: #E5E7EB;
-    border-style: solid;
+    height: 25px;
+    border-radius: 3px;
+    /*border-color: #E5E7EB;
+    border-style: solid;*/
+    border: 0.05px solid #E5E7EB;
 }
 #label{
     font-family: monospace; 
+}
+#create{
+    border-radius: 5px;
+    border-style: solid;
+    width: 150px;
+    height: 40px;
+    border-color: white;
+    background-color: #617450;
+    color:white;
+}
+#create:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+a{
+    color: #617450;
+    text-decoration-line: none;
+}
+input:focus{
+    border-color: #1545a5;
+    border-width: 1px;
+    box-shadow: 2px 2px 5px rgb(172, 170, 170);
+    outline: none;
 }
